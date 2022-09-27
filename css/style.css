@@ -1,0 +1,124 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif; 
+    background-color: #cccccc87;
+}
+
+/* regole header */
+header{
+    background-color: #fff;
+    padding: 10px;
+}
+
+header h1{
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px;
+}
+
+/* regole corpo principale */
+.container{
+    width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+}
+
+.buttonArea{
+    border-bottom: 2px solid #cccccc87;
+    padding: 10px 40px;
+}
+
+#addTask{
+    background-color: #1b9abe;
+    border-radius: 5px;
+    border-color:  #1b9abe ;
+    color: #fff;
+    width: 70px;
+    padding: 5px;
+}
+
+#addSection{
+    width: 95px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color:#ccc;
+    color: #cccccc;
+    background-color: white;
+}
+
+section{
+    padding: 10px 40px;
+}
+
+section h3{
+    font-size: 20px;
+}
+
+.list{
+    margin: 30px 0;
+}
+
+.toDo{
+    margin: 20px 0;
+}
+
+.sign{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.check{
+    border: 2px solid green;
+}
+
+.cross{
+    border: 2px solid red;
+    padding: 2px;
+}
+
+.label{
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.blue{
+    background-color: #1b9abe;
+}
+
+.violet{
+    background-color:#a60ba6;
+}
+
+.green{
+    background-color:green;
+}
+
+.orange{
+    background-color:orange;
+}
+
+.pink{
+    background-color:#e55db8;
+}
+
+.lightgreen{
+    background-color:rgb(144, 255, 47);
+}
+
+
+
+
+
